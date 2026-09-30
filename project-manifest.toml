@@ -51,3 +51,9 @@ disc_2_headless_boot_frames = 653
 disc_1_exact_package_telemetry_frames = 1934
 disc_2_exact_package_telemetry_frames = 1920
 disc_change_status = "connected_manual_route_pending"
+
+[bios]
+required = true
+profile = "SCPH5552"
+size = 524288
+sha256 = "1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09"

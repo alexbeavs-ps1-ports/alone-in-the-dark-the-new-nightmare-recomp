@@ -23,6 +23,10 @@ the Dark: The New Nightmare.
 Scaffolded with the New Project Layout. See
 `psxrecomp/docs/GAME_PROJECT_SETUP.md` for the full flow.
 
+<!-- release-standard:bios -->
+**BIOS:** SCPH-5552 (Europe) retail BIOS, 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`. Supply your own dump; releases do not use OpenBIOS.
+<!-- /release-standard:bios -->
+
 <!-- retcomm-readme-launcher -->
 ## RetComM Launcher
 
@@ -53,7 +57,7 @@ BIOS/ROM/save plumbing so you are not stuck repeating each game’s wizard by ha
 You must own the original game and provide both supported disc images. Disc
 images under `disc/` are ignored by Git and must never be committed. The
 package contains no retail BIOS. Supply a supported Europe-region SCPH BIOS
-from hardware that you own. The included OpenBIOS image supports setup only.
+from hardware that you own. OpenBIOS is not used.
 
 Default app icon: `assets/psxrecomp.ico` (and `.png` / `.svg`) — RetComM-themed controller mark from `psxrecomp/assets/`. Windows builds embed it via `APP_ICON`.
 

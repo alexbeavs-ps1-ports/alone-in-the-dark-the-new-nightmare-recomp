@@ -22,7 +22,7 @@ project(Alone_in_the_Dark__The_New_Nightmare LANGUAGES C CXX)
 # endif()
 set(PSX_SETUP_WIZARD ON CACHE BOOL
     "Advertise first-run setup wizard + Generate & rebuild in recomp-ui" FORCE)
-set(PSXRECOMP_BIOS_STEMS "OpenBIOS;SCPH5552" CACHE STRING
+set(PSXRECOMP_BIOS_STEMS "SCPH5552" CACHE STRING
     "BIOS backends for the Europe PAL release" FORCE)
 set(PSXRECOMP_BIOS_STEM "SCPH5552" CACHE STRING
     "Default retail BIOS backend for the Europe PAL release" FORCE)

@@ -6,9 +6,10 @@ name = "Alone in the Dark: The New Nightmare"
 id = "SLES-02801"
 players = 1
 exe = "disc/SLES_028.01"
+disc = "disc/Alone in the Dark - The New Nightmare (Europe) (Disc 1).cue"
 discs = [
-    "disc/disc1.cue",
-    "disc/disc2.cue",
+    "disc/Alone in the Dark - The New Nightmare (Europe) (Disc 1).cue",
+    "disc/Alone in the Dark - The New Nightmare (Europe) (Disc 2).cue",
 ]
 disc_serials = [
     "SLES-02801",
@@ -22,20 +23,23 @@ stack_base = "0x801FFFF0"
 # Digests are for data Track 01 (first BINARY FILE / TRACK 01).
 [prepare_disc]
 out_dir = "disc"
-bin_name = "disc1.bin"
-cue_name = "disc1.cue"
+bin_name = "Alone in the Dark - The New Nightmare (Europe) (Disc 1) (Track 1).bin"
+cue_name = "Alone in the Dark - The New Nightmare (Europe) (Disc 1).cue"
 boot_exe = "SLES_028.01"
-known_sizes = [605317776, 645019536]
+known_sizes = [605317776, 638403360, 645019536]
 known_md5 = [
   "e1e8961f76647d00ea5ba93aa0951b6c",
+  "81aeedeac7e806d878b4c9444026604f",
   "0cc3590cb32cb7e28db0d3edbea9c0bb",
 ]
 known_sha1 = [
   "270c9d9977a859e0f59e82cf9f3acd9de457f453",
+  "ab2cadfb095ee5980d99740ca584487e469668ba",
   "77bf47a7530883dacd3b071dd1eb8f2c2a4de0a2",
 ]
 known_crc32 = [
   "4ad56e6a",
+  "ff74942e",
   "81fd5df0",
 ]
 
@@ -46,6 +50,7 @@ bios_config = "psxrecomp/bios/SCPH5552.toml"
 strict = true
 
 [runtime]
+openbios = false
 window_title = "Alone in the Dark: The New Nightmare Recompiled"
 memcard_dir = "saves"
 
