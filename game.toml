@@ -53,6 +53,7 @@ strict = true
 openbios = false
 window_title = "Alone in the Dark: The New Nightmare Recompiled"
 memcard_dir = "saves"
+overlay_cache = true
 
 [video]
 renderer = "opengl"
