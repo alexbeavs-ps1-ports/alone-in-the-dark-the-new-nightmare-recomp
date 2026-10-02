@@ -51,7 +51,7 @@ strict = true
 
 [runtime]
 openbios = false
-bios_hle = true
+bios_hle = false
 window_title = "Alone in the Dark: The New Nightmare Recompiled"
 memcard_dir = "saves"
 overlay_cache = true
